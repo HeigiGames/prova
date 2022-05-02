@@ -1,0 +1,15 @@
+kopiram git@github.com:HeigiGames/prova.git
+
+git clone git@github.com:HeigiGames/prova.git ← ustvarim clone od git 
+
+ echo "# prova" >> README.md ← ustvari README
+ALI
+usvari file di testo (npr.: README) ← file ga stavim v repository (repository = cratella kjer je git clone)
+
+(to se ne naredi za main):
+
+git branch -c release ← ustvari novo vejo (release je ime veje)
+
+git push -u origin release ←  to stavi na github (release je ime)
+
+echo "local" >> .gitignore ← denemo .gitignore v file local
